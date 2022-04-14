@@ -129,6 +129,7 @@ class _CarouselImagesState extends State<CarouselImages> {
                                                   image: image,
                                                   fit: BoxFit.fitHeight),
                                             ),
+                                            placeholder: (context, _) => Icon(Icons.image, size: 200,),
                                           )
                                         : GestureDetector(
                                             onTap: () => widget.onTap != null
